@@ -210,7 +210,7 @@ If you used a name for the Oracle instance other than `oracle` you need to speci
 
 ### Microsoft SQL Server Example
 
-#### Create a user define network
+#### Create a user defined network
 
     docker network create keycloak-network
 
@@ -434,7 +434,7 @@ When running Keycloak behind a proxy, you will need to enable proxy address forw
 
 ### Setting up TLS(SSL)
 
-Keycloak image allows you to specify both a private key and a certificate for serving HTTPS. In that case you need to provide two files:
+Keycloak image allows you to specify both a private key and a certificate for serving HTTPS over port 8443. In that case you need to provide two files:
 
 * tls.crt - a certificate
 * tls.key - a private key
